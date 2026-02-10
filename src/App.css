@@ -1,0 +1,43 @@
+/* Smooth transitions for interactive elements */
+button {
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-1px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+/* Link transitions */
+a {
+    transition: color 0.3s ease, opacity 0.3s ease;
+}
+
+/* Card hover effects */
+.hover\:shadow-xl:hover {
+    transition: box-shadow 0.3s ease;
+}
+
+/* Smooth scroll behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom selection color */
+::selection {
+    background-color: #15803d;
+    color: white;
+}
+
+/* WhatsApp button pulse animation */
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
