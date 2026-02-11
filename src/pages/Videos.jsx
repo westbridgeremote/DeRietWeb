@@ -47,7 +47,7 @@ const Videos = () => {
             Videos
           </h1>
           <p className="text-xl text-stone-600 max-w-3xl mx-auto leading-relaxed">
-            Experience off-grid camping in Namaqualand through Allische's videography – 
+            Experience off-grid camping in Namaqualand through Allische's videography 
             capturing the beauty, wildlife, and tranquility of De Riet
           </p>
         </div>
@@ -63,7 +63,7 @@ const Videos = () => {
                 <div>
                   <h2 className="text-2xl font-bold text-stone-800 mb-2">Watch on YouTube</h2>
                   <p className="text-stone-700 mb-3">
-                    Follow Allische's channel for the latest videos from De Riet Off-Grid Campsite
+                    Follow Allische's channel for the latest videos from De Riet Off-Grid Campsite and Local Area
                   </p>
                   <p className="text-sm text-stone-600">
                     <span className="font-semibold">Channel:</span> Allische Botha
