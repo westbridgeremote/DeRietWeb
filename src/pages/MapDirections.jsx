@@ -61,9 +61,9 @@ const MapDirections = () => {
       icon: <Fuel className="w-6 h-6" />,
       title: "Fuel & Supplies",
       items: [
-        "No fuel available in Koingnaas",
-        "Fill up in Springbok or earlier",
-        "Bring extra water for journey",
+        "Fuel is available in Koingnaas during working hours",
+        "Filtered water and ice available for purchase in Koingnaas",
+        "Perishable foods are not readily available in Koingnaas",
         "Stock up on supplies before arrival"
       ]
     },
