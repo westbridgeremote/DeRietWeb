@@ -40,16 +40,19 @@ const Home = () => {
   return (
     <div className="bg-stone-50">
       {/* Hero Section */}
-      <section 
+  <section 
   className="relative text-white overflow-hidden"
   style={{
     backgroundImage: 'url(/images/home-hero-flowers.png)',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat'
+    backgroundRepeat: 'no-repeat',
+    imageRendering: '-webkit-optimize-contrast'
   }}
 >
-        <div className="absolute inset-0 opacity-10">
+  }}
+>
+        <div className="absolute inset-0 bg-black opacity-30">
           <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0zNiAxOGMzLjMxNCAwIDYgMi42ODYgNiA2cy0yLjY4NiA2LTYgNi02LTIuNjg2LTYtNiAyLjY4Ni02IDYtNnoiIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9nPjwvc3ZnPg==')] opacity-30"></div>
         </div>
         
