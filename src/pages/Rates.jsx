@@ -24,7 +24,7 @@ const Rates = () => {
     {
       title: "Overnight",
       price: "R300",
-      duration: "per person / night",
+      duration: "per camp area / night limited to 4x persons per camp",
       time: "Arrive after 2pm, depart by 10am",
       features: [
         "One night camping",
@@ -37,8 +37,8 @@ const Rates = () => {
     },
     {
       title: "Weekend",
-      price: "R800",
-      duration: "per person",
+      price: "R500",
+      duration: "per camp area / night limited to 4x persons per camp",
       time: "Friday – Sunday (2 nights)",
       features: [
         "Perfect for getaways",
@@ -51,8 +51,8 @@ const Rates = () => {
     },
     {
       title: "Weekly",
-      price: "R1,800",
-      duration: "per person",
+      price: "R1,200",
+      duration: "per camp area / night limited to 4x persons per camp",
       time: "Seven full days",
       features: [
         "Immerse in nature",
@@ -65,8 +65,8 @@ const Rates = () => {
     },
     {
       title: "Monthly",
-      price: "R6,000",
-      duration: "per person",
+      price: "R4,000",
+      duration: "per camp area / night limited to 4x persons per camp",
       time: "30 days camping",
       features: [
         "Flower season stays",
@@ -85,7 +85,7 @@ const Rates = () => {
       title: "Children & Groups",
       items: [
         "Children under 12: Half price",
-        "Groups of 4+: Discount available (inquire)",
+        "Groups of 5+: Discount available (inquire)",
         "Family-friendly environment"
       ]
     },
