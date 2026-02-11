@@ -20,19 +20,11 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start mb-16">
           <div className="space-y-6">
             <Card className="border-2 border-green-200 overflow-hidden">
-              <div className="aspect-[4/3] bg-gradient-to-br from-green-100 via-orange-100 to-stone-200 flex items-center justify-center">
-                <div className="text-center">
-                 <img 
-  src="/images/about-pieter-allische.jpg" 
-  alt="Pieter and Allische Horn" 
-  className="w-64 h-64 object-contain mx-auto mb-4 rounded-lg border-4 border-green-700 bg-white"
-/>
-                  <p className="text-lg font-medium text-stone-700 px-6">
-                    Pieter & Allische Horn<br />
-                    <span className="text-sm text-stone-600">Your Dedicated Hosts</span>
-                  </p>
-                </div>
-              </div>
+              <img 
+                src="/images/about-pieter-allische.jpg" 
+                alt="Pieter and Allische Horn" 
+                className="w-full h-full object-cover"
+              />
             </Card>
           </div>
 
