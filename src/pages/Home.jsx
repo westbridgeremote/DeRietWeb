@@ -55,7 +55,7 @@ const Home = () => {
             </p>
             <p className="text-lg text-stone-200 mb-8 leading-relaxed">
               Discover true off-grid camping in the heart of Namaqualand, South Africa. 
-              Located just 10km from Koingnaas on the wild west coast, unplug from the city 
+              Located just a short drive from Koingnaas on the wild west coast, unplug from the city 
               and reconnect with nature at our rustic campsite.
             </p>
             <div className="flex flex-wrap gap-4">
@@ -125,7 +125,7 @@ const Home = () => {
               <p className="text-lg text-stone-700 mb-4 leading-relaxed">
                 No grid electricity means pure peace – only the sounds of wind, wildlife, 
                 and waves from the nearby Atlantic. Our off-grid setup includes essential 
-                comforts for an unforgettable experience.
+                comforts for an unforgettable experience. A generator is on site to provide for essential electrical needs.
               </p>
               <p className="text-lg text-stone-700 mb-6 leading-relaxed">
                 Perfect for weekend getaways, long retreats, digital detoxes, or flower-season 
