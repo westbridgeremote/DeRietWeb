@@ -53,7 +53,7 @@ const Contact = () => {
     {
       icon: <MapPin className="w-6 h-6" />,
       title: "Location",
-      content: "10km from Koingnaas, Namaqualand",
+      content: "Approximately 14km from Koingnaas, Namaqualand",
       description: "Northern Cape, South Africa"
     },
     {
@@ -163,7 +163,7 @@ const Contact = () => {
                   </Button>
 
                   <p className="text-xs text-stone-500 text-center">
-                    We'll reply within 24 hours (signal permitting in our off-grid location)
+                    We'll reply within 24 hours
                   </p>
                 </form>
               </CardContent>
@@ -176,7 +176,7 @@ const Contact = () => {
               <h2 className="text-2xl font-bold text-stone-800 mb-6">Get in Touch</h2>
               <p className="text-stone-600 leading-relaxed mb-6">
                 Pieter & Allische Horn are here to help with bookings, questions about facilities, 
-                flower season availability, or any special requirements. We live on-site and pride 
+                flower season availability, or any special requirements. We live near the site and pride 
                 ourselves on personal, friendly service.
               </p>
             </div>
