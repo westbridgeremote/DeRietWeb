@@ -12,7 +12,7 @@ const About = () => {
             About Us
           </h1>
           <p className="text-xl text-stone-600 max-w-3xl mx-auto">
-            Meet Pieter & Allische Horn – Your Hosts in Namaqualand
+            Meet Your Hosts in Namaqualand: Pieter & Allische Horn
           </p>
         </div>
 
@@ -39,7 +39,7 @@ const About = () => {
               </h2>
               <p className="text-lg text-stone-700 leading-relaxed mb-4">
                 De Riet Off-Grid Campsite is proudly run by <span className="font-semibold">Pieter and Allische Horn</span>, 
-                a dedicated married couple deeply rooted in the Northern Cape's wild landscapes. With years of 
+                a dedicated couple with a deep appreciation for the area's wild and beautiful landscapes. With their experience of 
                 exploring Namaqualand's remote trails, beaches, and flower fields, they've created this off-grid 
                 haven to share the region's untouched beauty with fellow nature lovers.
               </p>
@@ -49,7 +49,7 @@ const About = () => {
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold text-stone-800 mb-3">Pieter Horn</h3>
                 <p className="text-stone-700 leading-relaxed">
-                  Pieter handles the practical side: designing sustainable, low-impact facilities that harmonize 
+                  Pieter handles the practical side: designing sustainable, low-impact facilities that harmonise 
                   with the environment while ensuring smooth off-grid operations – from water systems to site maintenance. 
                   His intimate knowledge of the area helps guests find the best wildlife spots, hiking paths, and 
                   seasonal highlights.
@@ -90,7 +90,7 @@ const About = () => {
                   </div>
                   <h3 className="font-bold text-stone-800 mb-2">Eco-Friendly</h3>
                   <p className="text-sm text-stone-600">
-                    We prioritize sustainable, low-impact camping that respects the fragile Namaqualand ecosystem
+                    We prioritise sustainable, low-impact camping that respects the fragile Namaqualand ecosystem
                   </p>
                 </div>
 
@@ -102,7 +102,7 @@ const About = () => {
                   </div>
                   <h3 className="font-bold text-stone-800 mb-2">Personal Service</h3>
                   <p className="text-sm text-stone-600">
-                    Living on-site, we're always available for tips, braai chats, or assistance
+                    Visiting the site regularly, we're always available for tips, braai chats, or assistance
                   </p>
                 </div>
 
@@ -114,7 +114,7 @@ const About = () => {
                   </div>
                   <h3 className="font-bold text-stone-800 mb-2">Passion for Nature</h3>
                   <p className="text-sm text-stone-600">
-                    We've loved this land forever and are excited to share its magic with you
+                    We loved this land and are excited to share its magic with you
                   </p>
                 </div>
               </div>
@@ -127,7 +127,7 @@ const About = () => {
           <Card className="border-2 border-orange-300 bg-gradient-to-r from-orange-50 via-amber-50 to-green-50 shadow-lg">
             <CardContent className="p-8">
               <blockquote className="text-2xl font-medium text-stone-800 italic mb-4">
-                "We've loved this land forever – now we're excited to welcome you to experience its magic firsthand."
+                "There's no Wi-Fi here, but I promise you will find a better connection."
               </blockquote>
               <p className="text-stone-600 font-medium">— Pieter & Allische Horn</p>
             </CardContent>
@@ -140,7 +140,7 @@ const About = () => {
             <CardContent className="p-6">
               <h3 className="text-xl font-bold text-stone-800 mb-4">Local Expertise</h3>
               <p className="text-stone-700 leading-relaxed">
-                Years of exploring Namaqualand have given us deep insights into the best times to visit, 
+                Our time exploring Namaqualand have given us deep insights into the best times to visit, 
                 hidden gems to discover, and how to make the most of your off-grid experience. We know 
                 where the Springbok graze, when the flowers bloom brightest, and which sunset spots take 
                 your breath away.
@@ -152,9 +152,9 @@ const About = () => {
             <CardContent className="p-6">
               <h3 className="text-xl font-bold text-stone-800 mb-4">Community Connection</h3>
               <p className="text-stone-700 leading-relaxed">
-                We're proud members of the Koingnaas community and work closely with local guides for 
+                We're proud members of the local community and work closely with local suppliers for fresh goods and guides for 
                 tours and activities. Our connections help us arrange shipwreck tours, beach excursions, 
-                fishing trips, and geology hikes that showcase the best of the Northern Cape's west coast.
+                fishing trips, and flower hikes that showcase the best of the Northern Cape's west coast.
               </p>
             </CardContent>
           </Card>
