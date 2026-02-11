@@ -22,7 +22,11 @@ const About = () => {
             <Card className="border-2 border-green-200 overflow-hidden">
               <div className="aspect-[4/3] bg-gradient-to-br from-green-100 via-orange-100 to-stone-200 flex items-center justify-center">
                 <div className="text-center">
-                  <Heart className="w-20 h-20 text-green-700 mx-auto mb-4" />
+                  <img 
+  src="/images/about-pieter-allische.jpg" 
+  alt="Pieter and Allische Horn" 
+  className="w-48 h-48 object-cover rounded-full mx-auto mb-4 border-4 border-green-700"
+/>
                   <p className="text-lg font-medium text-stone-700 px-6">
                     Pieter & Allische Horn<br />
                     <span className="text-sm text-stone-600">Your Dedicated Hosts</span>
