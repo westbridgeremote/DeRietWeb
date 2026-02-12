@@ -19,14 +19,13 @@ const About = () => {
         {/* Main Content */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start mb-16">
           <div className="space-y-6">
-            <Card className="border-2 border-green-200 overflow-hidden">
-             <img 
-  src="/images/about-pieter-allische.jpg" 
-  alt="Pieter and Allische Horn" 
-  className="w-64 h-80 object-cover mx-auto rounded-lg"
-/>
-            
-            </Card>
+           <Card className="border-2 border-green-200 overflow-hidden w-48 mx-auto">
+  <img 
+    src="/images/about-pieter-allische.jpg" 
+    alt="Pieter and Allische Horn" 
+    className="w-full h-64 object-cover"
+  />
+</Card>
           </div>
 
           <div className="space-y-6">
