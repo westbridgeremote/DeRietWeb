@@ -112,13 +112,16 @@ const Layout = ({ children }) => {
                   <Phone size={16} />
                   <span>+27 73 341 5894</span>
                 </a>
-                <a href="mailto:offgridderiet@gmail.com" className="flex items-center space-x-2 hover:text-orange-300 transition-colors">
+               <a href="tel:+27838620560" className="flex items-center space-x-2 hover:text-orange-300 transition-colors">
+  <Phone size={16} />
+  <span>+27 83 862 0560</span>
+</a> <a href="mailto:offgridderiet@gmail.com" className="flex items-center space-x-2 hover:text-orange-300 transition-colors">
                   <Mail size={16} />
                   <span>offgridderiet@gmail.com</span>
                 </a>
                 <div className="flex items-start space-x-2">
                   <MapPin size={16} className="mt-1 flex-shrink-0" />
-                  <span>10km from Koingnaas<br />Namaqualand, Northern Cape</span>
+                  <span>15km from Koingnaas<br />Namaqualand, Northern Cape</span>
                 </div>
               </div>
             </div>
