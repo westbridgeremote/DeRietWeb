@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import { Button } from '../components/ui/button';
 const Rates = () => {
 const rates = [
+  const rates = [
     {
       title: "Day Visit",
       price: "Off-Season: R60 | In-Season: R100",
@@ -63,21 +64,6 @@ const rates = [
       color: "from-blue-100 to-cyan-100"
     }
   ];
-  const additionalInfo = [
-    {
-      icon: <Users className="w-6 h-6" />,
-      title: "Children & Groups",
-      items: [
-        "Children under 12: Half price",
-        "Groups of 5+: Discount available (inquire)",
-        "Family-friendly environment"
-      ]
-    },
-    {
-      icon: <Calendar className="w-6 h-6" />,
-      title: "Booking Details",
-      items: [
-        "50% deposit required to confirm",
         "Contact for flower season rates",
         "Custom packages available"
       ]
