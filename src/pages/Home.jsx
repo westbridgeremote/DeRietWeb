@@ -24,16 +24,16 @@ const Home = () => {
     {
       icon: <Bird className="w-8 h-8" />,
       title: "Wildlife Spotting",
-      description: "See Springbok, Klipspringer, diverse birds, and reptiles in their natural habitat"
+      description: "See Springbok, Gemsbok, Oryx, Rooihartebeest, Steenbok, diverse birds, and reptiles in their natural habitat"
     }
   ];
 
   const facilities = [
     "Clean bathroom facilities",
-    "Solar-heated showers",
+    "Heated showers",
     "Communal kitchen",
     "Dedicated braai room",
-    "Spacious camping pitches",
+    "Spacious camping areas",
     "Low-impact environment"
   ];
 
@@ -62,11 +62,11 @@ const Home = () => {
               De Riet Off-Grid Campsite
             </h1>
             <p className="text-xl sm:text-2xl text-orange-200 mb-4 font-medium">
-              Authentic Off-Grid Camping in Namaqualand, Northern Cape
+              Authentic Off-Grid Camping near Koingnaas, Namaqualand in the Northern Cape
             </p>
             <p className="text-lg text-stone-200 mb-8 leading-relaxed">
               Discover true off-grid camping in the heart of Namaqualand, South Africa. 
-              Located just a short drive from Koingnaas on the wild west coast, unplug from the city 
+              Located just 15km from Koingnaas on the wild west coast, unplug from the city 
               and reconnect with nature at our rustic campsite.
             </p>
             <div className="flex flex-wrap gap-4">
@@ -84,7 +84,7 @@ const Home = () => {
             </div>
             <div className="mt-8 flex items-center text-sm text-stone-300">
               <MapPin className="w-4 h-4 mr-2" />
-              <span>GPS: 30°09'19"S, 17°21'20"E</span>
+              <span>GPS: 30.146068, 17.347459</span>
             </div>
           </div>
         </div>
@@ -135,7 +135,7 @@ const Home = () => {
               </h2>
               <p className="text-lg text-stone-700 mb-4 leading-relaxed">
                 No grid electricity means pure peace – only the sounds of wind, wildlife, 
-                and waves from the nearby Atlantic. Our off-grid setup includes essential 
+                and far-off waves from the nearby Atlantic. Our off-grid setup includes essential 
                 comforts for an unforgettable experience. A generator is on site to provide for essential electrical needs.
               </p>
               <p className="text-lg text-stone-700 mb-6 leading-relaxed">
