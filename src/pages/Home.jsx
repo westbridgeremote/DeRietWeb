@@ -145,7 +145,7 @@ const Home = () => {
               </p>
               <Link to="/about">
                 <Button className="bg-green-700 hover:bg-green-800 text-white">
-                  Meet Pieter & Allische
+                  Meet Your Hosts
                 </Button>
               </Link>
             </div>
@@ -181,7 +181,7 @@ const Home = () => {
             Ready for Your Namaqualand Adventure?
           </h2>
           <p className="text-xl text-orange-200 mb-8 leading-relaxed">
-            Contact Pieter & Allische today to book your stay at De Riet Off-Grid Campsite. 
+            Contact Us today to book your stay at De Riet Off-Grid Campsite. 
             Experience the magic of Namaqualand's wilderness.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
