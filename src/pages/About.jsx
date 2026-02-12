@@ -137,7 +137,7 @@ const About = () => {
                   </div>
                   <h3 className="font-bold text-stone-800 mb-2">Passion for Nature</h3>
                   <p className="text-sm text-stone-600">
-                    We loved this land and are excited to share its magic with you
+                    We love this land and are excited to share its magic with you
                   </p>
                 </div>
               </div>
