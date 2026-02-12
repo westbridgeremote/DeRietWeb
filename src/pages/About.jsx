@@ -17,7 +17,7 @@ const About = () => {
         </div>
 
         {/* Main Content */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start mb-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
           <div className="space-y-6">
            <Card className="border-2 border-green-200 overflow-hidden w-48 mx-auto">
   <img 
