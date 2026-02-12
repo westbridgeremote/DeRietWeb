@@ -17,7 +17,7 @@ const About = () => {
         </div>
 
         {/* Main Content */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
+       <div className="... items-center mb-16">
           <div className="space-y-6">
            <Card className="border-2 border-green-200 overflow-hidden w-48 mx-auto">
   <img 
@@ -160,8 +160,7 @@ const About = () => {
         {/* Additional Info */}
       </div>
     </div>
-  );{/* Additional Info */}
-<div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+ <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
   <Card className="border-2 border-stone-200 hover:border-green-600 transition-all duration-300">
     <CardContent className="p-6">
       <h3 className="text-xl font-bold text-stone-800 mb-4">Local Expertise</h3>
