@@ -146,6 +146,7 @@ const Layout = ({ children }) => {
           <div className="mt-8 pt-8 border-t border-stone-700 text-center text-sm text-stone-400">
             <p>&copy; {new Date().getFullYear()} De Riet Off-Grid Campsite. All rights reserved.</p>
             <p className="mt-2">Managed by Pieter & Allische Horn</p>
+<p className="mt-1 text-stone-400 text-xs">Website designed by WestBridge Remote</p>
           </div>
         </div>
       </footer>
