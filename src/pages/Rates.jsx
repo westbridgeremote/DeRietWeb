@@ -4,7 +4,6 @@ import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card'
 import { Badge } from '../components/ui/badge';
 import { Link } from 'react-router-dom';
 import { Button } from '../components/ui/button';
-
 const Rates = () => {
 const rates = [
     {
@@ -117,7 +116,7 @@ const rates = [
         </div>
 
         {/* Rates Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
           {rates.map((rate, index) => (
             <Card key={index} className="border-2 border-stone-200 hover:border-green-600 transition-all duration-300 hover:shadow-xl relative overflow-hidden group">
               {rate.badge && (
