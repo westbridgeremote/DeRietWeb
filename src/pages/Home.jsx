@@ -31,6 +31,7 @@ const Home = () => {
   const facilities = [
     "Clean bathroom facilities",
     "Heated showers",
+    "Solar lighting",
     "Communal kitchen",
     "Dedicated braai room",
     "Spacious camping areas",
