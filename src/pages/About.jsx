@@ -1,4 +1,4 @@
-import React from 'react';
+mport React from 'react';
 import { Camera, Heart } from 'lucide-react';
 import { Card, CardContent } from '../components/ui/card';
 
@@ -156,11 +156,8 @@ const About = () => {
             </CardContent>
           </Card>
         </div>
-
         {/* Additional Info */}
-      </div>
-    </div>
- <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
   <Card className="border-2 border-stone-200 hover:border-green-600 transition-all duration-300">
     <CardContent className="p-6">
       <h3 className="text-xl font-bold text-stone-800 mb-4">Local Expertise</h3>
