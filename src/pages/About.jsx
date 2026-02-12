@@ -61,8 +61,8 @@ const About = () => {
                   <h3 className="text-xl font-bold text-stone-800">Allische Horn</h3>
                 </div>
                 <p className="text-stone-700 leading-relaxed">
-                  Allische adds the artistic touch as an amateur photographer with a remarkable eye for nature's 
-                  details. She captures the subtle wonders of Namaqualand – tiny flower petals, antelope silhouettes 
+                  Allische adds the artistic touch as a photographer with a remarkable eye for nature's 
+                  minute beauty and details. She captures the subtle wonders of Namaqualand – tiny flower petals, antelope silhouettes 
                   at dawn, starry nights over tents, and intricate reptile patterns – many featured in our gallery. 
                   Her images inspire visitors to appreciate the minute beauty of this semi-desert paradise.
                 </p>
