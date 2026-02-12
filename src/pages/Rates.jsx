@@ -155,7 +155,7 @@ const rates = [
           <h2 className="text-3xl font-bold text-stone-800 mb-8 text-center">
             Additional Information
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {additionalInfo.map((info, index) => (
               <Card key={index} className="border-2 border-stone-200 hover:border-green-600 transition-all duration-300">
                 <CardContent className="p-6">
