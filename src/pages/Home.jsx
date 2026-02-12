@@ -19,7 +19,7 @@ const Home = () => {
     {
       icon: <Flower className="w-8 h-8" />,
       title: "Flower Season",
-      description: "Witness the famous wildflower bloom (August-September) - one of nature's greatest shows"
+      description: "Witness the famous wildflower bloom (usually August-September) - one of nature's greatest shows"
     },
     {
       icon: <Bird className="w-8 h-8" />,
