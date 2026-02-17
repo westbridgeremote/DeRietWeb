@@ -63,27 +63,7 @@ const Rates = () => {
       color: "from-blue-100 to-cyan-100"
     }
  ];
-    const additionalInfo = [
-    {
-      icon: <DollarSign className="w-6 h-6" />,
-      title: "Extras & Fees",
-      items: [
-        "Firewood available on-site",
-        "No hidden fees",
-        "Payment details upon booking"
-      ]
-    },
-    {
-      icon: <Info className="w-6 h-6" />,
-      title: "Important Notes",
-      items: [
-        "No pets (wildlife protection)",
-        "Service animals with advance notice",
-        "Rates subject to change"
-      ]
-    }
-  ];
-
+ 
   return (
     <div className="min-h-screen bg-stone-50 py-12 lg:py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
