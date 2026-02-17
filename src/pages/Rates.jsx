@@ -64,18 +64,19 @@ const Rates = () => {
   }
 ];
 {/* Rates data */} 
-  return (
-    <div className="min-h-screen bg-stone-50 py-12 lg:py-20">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
-        <div className="text-center mb-12">
-          <h1 className="text-4xl lg:text-5xl font-bold text-stone-800 mb-4">
-            Rates & Pricing
-          </h1>
-          <p className="text-xl text-stone-600 max-w-3xl mx-auto">
-            Affordable rates for off-grid camping at De Riet – Namaqualand, Northern Cape
-          </p>
-        </div>
+return (
+  <div className="min-h-screen bg-stone-50 py-12 lg:py-20">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="text-center mb-12">
+        <h1 className="text-4xl lg:text-5xl font-bold text-stone-800 mb-4">
+          Rates & Pricing
+        </h1>
+        <p className="text-xl text-stone-600 max-w-3xl mx-auto">
+          Affordable rates for off-grid camping at De Riet – Namaqualand, Northern Cape
+        </p>
+      </div>
+
+      {/* Rates Grid will go here – leave the rest of your code below this */}
 
         {/* Rates Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
