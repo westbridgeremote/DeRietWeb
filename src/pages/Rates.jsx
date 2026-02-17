@@ -63,7 +63,6 @@ const Rates = () => {
       color: "from-blue-100 to-cyan-100"
     }
   ];
-       },
     {
       icon: <DollarSign className="w-6 h-6" />,
       title: "Extras & Fees",
