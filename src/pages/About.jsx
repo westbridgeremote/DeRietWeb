@@ -194,9 +194,8 @@ const About = () => {
   </Card>
   </div>
 </div>
-    </div>
-      </div>
-    );
+</div>
+     );
 };
 
 export default About;
