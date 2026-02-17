@@ -3,7 +3,8 @@ import { Camera, Heart } from 'lucide-react';
 import { Card, CardContent } from '../components/ui/card';
 
 const About = () => {
-  return (
+return (
+  <>
     <div className="min-h-screen bg-stone-50 py-12 lg:py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
@@ -185,19 +186,21 @@ const About = () => {
         </p>
       </CardContent>
     </Card>
-
-        {/* Quote */}
-       <div className="text-center mb-16">
-        <Card className="border-2 border-orange-300 bg-gradient-to-r from-orange-50 via-amber-50 to-green-50 shadow-xl">
-          <CardContent className="p-8">
-            <blockquote className="text-xl font-medium text-stone-800 italic mb-4">
-              "There's no Wi-Fi here, but we promise you will find a better connection."
-            </blockquote>
-            <p className="text-stone-600 font-medium">— Pieter & Allische Horn</p>
-          </CardContent>
-        </Card>
-      </div>
+    
+     {/* Quote */}
+     <div className="text-center mb-16">
+       <Card className="border-2 border-orange-300 bg-gradient-to-r from-orange-50 via-amber-50 to-green-50 shadow-xl">
+         <CardContent className="p-8">
+           <blockquote className="text-xl font-medium text-stone-800 italic mb-4">
+             "There's no Wi-Fi here, but we promise you will find a better connection."
+           </blockquote>
+           <p className="text-stone-600 font-medium">— Pieter & Allische Horn</p>
+         </CardContent>
+       </Card>
      </div>
-   </>
- );
+
+   </div>
+ </>
+);
+      };
 export default About;
