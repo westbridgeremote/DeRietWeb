@@ -27,7 +27,7 @@ const About = () => {
     />
   </Card>
 </div>
-
+</div>
           <div className="space-y-6">
             <div>
               <h2 className="text-3xl font-bold text-stone-800 mb-4">
