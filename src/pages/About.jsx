@@ -197,6 +197,7 @@ const About = () => {
           </CardContent>
         </Card>
       </div>
+     </div>
+   </>
  );
-   
 export default About;
