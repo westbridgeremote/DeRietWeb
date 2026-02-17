@@ -185,21 +185,21 @@ const About = () => {
         </p>
       </CardContent>
     </Card>
-  </div>
-</>
-        {/* Quote */}
-        <div className="text-center mb-16">
-          <Card className="border-2 border-orange-300 bg-gradient-to-r from-orange-50 via-amber-50 to-green-50 shadow-lg">
-            <CardContent className="p-8">
-              <blockquote className="text-2xl font-medium text-stone-800 italic mb-4">
-                "There's no Wi-Fi here, but we promise you will find a better connection."
-              </blockquote>
-              <p className="text-stone-600 font-medium">— Pieter & Allische Horn</p>
-            </CardContent>
-          </Card>
-        </div>
-     
-     );
-};
 
+        {/* Quote */}
+       <div className="text-center mb-16">
+        <Card className="border-2 border-orange-300 bg-gradient-to-r from-orange-50 via-amber-50 to-green-50 shadow-xl">
+          <CardContent className="p-8">
+            <blockquote className="text-xl font-medium text-stone-800 italic mb-4">
+              "There's no Wi-Fi here, but we promise you will find a better connection."
+            </blockquote>
+            <p className="text-stone-600 font-medium">— Pieter & Allische Horn</p>
+          </CardContent>
+        </Card>
+      </div>
+
+    </div>
+  </>
+);
+   
 export default About;
