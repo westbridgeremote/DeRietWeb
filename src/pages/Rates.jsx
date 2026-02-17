@@ -63,10 +63,7 @@ const Rates = () => {
       color: "from-blue-100 to-cyan-100"
     }
   ];
-        "Contact for flower season rates",
-        "Custom packages available"
-      ]
-    },
+       },
     {
       icon: <DollarSign className="w-6 h-6" />,
       title: "Extras & Fees",
