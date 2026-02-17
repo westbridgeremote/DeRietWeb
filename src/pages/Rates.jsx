@@ -62,7 +62,8 @@ const Rates = () => {
       badge: "Extended Stay",
       color: "from-blue-100 to-cyan-100"
     }
-  ];
+ ];
+    const additionalInfo = [
     {
       icon: <DollarSign className="w-6 h-6" />,
       title: "Extras & Fees",
