@@ -192,7 +192,6 @@ const About = () => {
       </p>
     </CardContent>
   </Card>
-    </div>
   </div>
 </div>
     </div>
