@@ -18,15 +18,15 @@ const About = () => {
 
         {/* Main Content */}
        <div className="... items-center mb-16">
-          <div className="space-y-6">
-           <Card className="border-2 border-green-200 overflow-hidden w-48 mx-auto">
-  <img 
-    src="/images/about-pieter-allische.jpg" 
-    alt="Pieter and Allische Horn" 
-    className="w-full h-64 object-cover"
-  />
-</Card>
-          </div>
+         <div className="flex justify-center items-center">
+  <Card className="border-2 border-green-200 overflow-hidden w-56">
+    <img 
+      src="/images/about-pieter-allische.jpg" 
+      alt="Pieter and Allische Horn" 
+      className="w-full h-80 object-cover object-top"
+    />
+  </Card>
+</div>
 
           <div className="space-y-6">
             <div>
