@@ -113,7 +113,7 @@ const MapDirections = () => {
                 <div>
                   <h2 className="text-2xl font-bold text-stone-800 mb-2">GPS Coordinates</h2>
                   <p className="text-3xl font-mono font-bold text-green-700 mb-2">
-                    30.146068, 17.347459
+                    -30.112663, 17.330531
                   </p>
                   <p className="text-stone-600">
                     10km from Koingnaas, Namaqualand, Northern Cape, South Africa
