@@ -21,7 +21,7 @@ const About = () => {
           </div>
         </div>
 
-        {/* Story Section */}
+        {/* Our Story Section */}
         <div className="max-w-4xl mx-auto mb-20">
           <h2 className="text-2xl font-bold text-stone-800 mb-6">Our Story</h2>
           <p className="text-stone-600 leading-relaxed mb-8">
@@ -52,11 +52,12 @@ const About = () => {
           </div>
         </div>
 
-        {/* Giel & Mariaan Section - Centered Layout */}
+        {/* Giel & Mariaan Section - Centered and Balanced */}
         <div className="max-w-4xl mx-auto mb-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+            {/* Photo Column - Pushed toward center */}
             <div className="flex justify-center lg:justify-end">
-              <Card className="border-2 border-stone-200 overflow-hidden shadow-md w-64 h-80">
+              <Card className="border-2 border-stone-200 overflow-hidden shadow-md w-64 h-80 shrink-0">
                 <img 
                   src="/images/about-giel-mariaan.jpg" 
                   alt="Giel and Mariaan Botha"
@@ -64,6 +65,8 @@ const About = () => {
                 />
               </Card>
             </div>
+
+            {/* Write-up Column - Centered */}
             <div className="max-w-md">
               <h2 className="text-3xl font-bold text-stone-800 mb-4">Giel & Mariaan Botha</h2>
               <p className="text-lg text-stone-700 leading-relaxed mb-4">
