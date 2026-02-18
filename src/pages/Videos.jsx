@@ -12,31 +12,66 @@ const Videos = () => {
       placeholder: true
     },
     {
-      title: "Wildlife & Nature",
-      description: "Springbok, Klipspringer, birds, and reptiles in their habitat",
+      title: "2023 Flower Season-Session 1",
+      description: "Beautiful Flowers from the 2023 Flower Season in Namaqualand",
       placeholder: true
     },
     {
-      title: "Namaqualand Flowers",
-      description: "Time-lapse and close-ups of the famous wildflower season",
+      title: "2023 Flower Season-Session 2",
+      description: "Time-lapse and close-ups of the famous wildflower season in 2023",
       placeholder: true
     },
     {
-      title: "Landscapes & Sunsets",
-      description: "Stunning views of mountains, plains, and coastal scenery",
+      title: "2023 Flower Season-Session 3",
+      description: "Stunning views of flower scenery",
       placeholder: true
     },
     {
-      title: "Guest Experiences",
-      description: "Braai nights, star gazing, and off-grid camping adventures",
+      title: "2024 Flower Season-Session 1",
+      description: "2024 Flower Season in Namaqualand",
       placeholder: true
     },
     {
-      title: "Local Activities",
-      description: "Nearby attractions, beaches, and tour highlights",
+      title: "2024 Flower Season-Session 2",
+      description: "Namaqualand in bloom in 2024",
       placeholder: true
     }
-  ];
+    {
+      title: "2024 Flower Season-Session 3",
+      description: "Flowers in Bloom",
+      placeholder: true
+    }
+  {
+      title: "2024 Flower Season-Session 4",
+      description: "2024 Flower Season in Namaqualand",
+      placeholder: true
+    }
+  {
+      title: "2024 Flower Season-Session 5",
+      description: "Spring in Namaqualand",
+      placeholder: true
+    }
+  {
+      title: "2025 Flower Season-Session 1",
+      description: "Blooming Namaqualand",
+      placeholder: true
+    }
+  {
+      title: "2025 Flower Season-Session 2",
+      description: "Namaqualand Dressed in Flowers",
+      placeholder: true
+    }
+  {
+      title: "2025 Flower Season-Session 3",
+      description: "Stunnig Namaqualand",
+      placeholder: true
+    }
+  {
+      title: "2025 Flower Season-Session 4",
+      description: "Full Bloom Season Namaqualand",
+      placeholder: true
+    }
+   ];
 
   return (
     <div className="min-h-screen bg-stone-50 py-12 lg:py-20">
