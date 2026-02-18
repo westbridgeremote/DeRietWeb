@@ -1,5 +1,5 @@
 import React from 'react';
-import { DollarSign, Users, Calendar, Info } from 'lucide-react';
+import { DollarSign, Users, Calendar, Info, Palette, Music, CheckCircle2, MapPin } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card';
 import { Badge } from '../components/ui/badge';
 import { Link } from 'react-router-dom';
