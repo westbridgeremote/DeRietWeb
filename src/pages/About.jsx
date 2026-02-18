@@ -145,43 +145,34 @@ return (
           </Card>
         </div>
 {/* Additional Info */}
-<>
-  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-    <Card className="border-2 border-stone-200 hover:border-green-600 transition-all duration-300">
-      <CardContent className="text-stone-600 font-medium">Pieter & Allische Horn</CardContent>
-    </Card>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <Card className="border-2 border-stone-200 hover:border-green-600 transition-all duration-300">
+          <CardContent className="p-6">
+            <h3 className="text-xl font-bold text-stone-800 mb-4">Pieter & Allische Horn</h3>
+            <p className="text-stone-600 leading-relaxed">Your hosts at De Riet</p>
+          </CardContent>
+        </Card>
 
-    <Card className="border-2 border-stone-200 hover:border-green-600 transition-all duration-300">
-      <CardContent className="p-6">
-        <h3 className="text-xl font-bold text-stone-800 mb-4">Local Expertise</h3>
-        <p className="text-stone-700 leading-relaxed">
-          Our time exploring Namaqualand have given us deep insights into the best times to visit,
-          hidden gems to discover, and how to make the most of your off-grid experience. We know
-          where the Springbok graze, when the flowers bloom brightest, and which sunset spots take
-          your breath away.
-        </p>
-      </CardContent>
-    </Card>
+        <Card className="border-2 border-stone-200 hover:border-green-600 transition-all duration-300">
+          <CardContent className="p-6">
+            <h3 className="text-xl font-bold text-stone-800 mb-4">Local Expertise</h3>
+            <p className="text-stone-600 leading-relaxed">
+              Our time exploring Namaqualand has given us deep insights into the best times to visit, hidden gems to discover, and how to make the most of your off-grid experience.
+            </p>
+          </CardContent>
+        </Card>
 
-    <Card className="border-2 border-stone-200 hover:border-green-600 transition-all duration-300">
-      <CardContent className="p-6">
-        <h3 className="text-xl font-bold text-stone-800 mb-4">Community Connection</h3>
-        <p className="text-stone-700 leading-relaxed">
-          We're proud members of the local community and work closely with local suppliers for
-          fresh goods and guides for tours and activities. Our connections help us arrange shipwreck
-          tours, beach excursions, fishing trips, and flower hikes that showcase the best of the
-          Northern Cape's west coast.
-        </p>
-      </CardContent>
-    </Card>
-    <Card className="border-2 border-stone-200 hover:border-green-600 transition-all duration-300">
-      <CardContent className="p-6">
-        <h3 className="text-xl font-bold text-stone-800 mb-4">The Van Niekerk Family</h3>
-        <p className="text-stone-700 leading-relaxed">
-          De Riet Off-Grid Campsite exists on land owned by the Van Niekerk family, whose deep 
-          connection to this corner of Namaqualand stretches back generations. It was their 
-          steadfast support of the vision behind De Riet that made the campsite a reality.
-        </p>
-      </CardContent>
-    </Card>
-     export default About;
+        <Card className="border-2 border-stone-200 hover:border-green-600 transition-all duration-300">
+          <CardContent className="p-6">
+            <h3 className="text-xl font-bold text-stone-800 mb-4">The Van Niekerk Family</h3>
+            <p className="text-stone-600 leading-relaxed">
+              De Riet Off-Grid Campsite exists on land owned by the Van Niekerk family, whose deep connection to this corner of Namaqualand stretches back generations.
+            </p>
+          </CardContent>
+        </Card>
+      </div>
+    </div>
+  );
+};
+
+export default About;
