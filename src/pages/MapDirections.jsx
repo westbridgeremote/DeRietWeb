@@ -14,7 +14,7 @@ const MapDirections = () => {
         "Continue for approximately 500km",
         "Turn west onto R355 towards Koingnaas",
         "Travel 80-100km on gravel road",
-        "Continue 10km past Koingnaas to De Riet"
+        "Continue 15km past Koingnaas to De Riet"
       ],
       icon: <Car className="w-6 h-6" />
     },
