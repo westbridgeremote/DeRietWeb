@@ -5,7 +5,6 @@ import { Badge } from '../components/ui/badge';
 import { Link } from 'react-router-dom';
 import { Button } from '../components/ui/button';
 
-// Define additionalInfo OUTSIDE the component to fix the ReferenceError
 const additionalInfo = [
   {
     title: "Check-in & Out",
@@ -91,7 +90,6 @@ const Rates = () => {
           </p>
         </div>
 
-        {/* Pricing Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
           {rates.map((rate, index) => (
             <Card key={index} className={`border-none shadow-xl bg-gradient-to-br ${rate.color} transition-all duration-300 hover:scale-[1.02]`}>
@@ -125,7 +123,6 @@ const Rates = () => {
           ))}
         </div>
 
-        {/* Additional Information */}
         <div className="mb-12">
           <h2 className="text-3xl font-bold text-stone-800 mb-8 text-center">
             Additional Information
@@ -156,7 +153,6 @@ const Rates = () => {
           </div>
         </div>
 
-        {/* CTA Section */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16">
           <Card className="border-2 border-orange-300 bg-gradient-to-r from-orange-50 via-amber-50 to-green-50 shadow-xl">
             <CardContent className="p-8 text-center">
