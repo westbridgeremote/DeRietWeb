@@ -68,7 +68,14 @@ return (
               </CardContent>
             </Card>
           </div>
-        </div>
+      <div className="col-span-1 lg:col-span-2 flex justify-center my-12 px-4">
+  <blockquote className="max-w-3xl text-center italic text-stone-600 border-y border-stone-200 py-8 text-lg leading-relaxed">
+    "De Riet Off-Grid Campsite exists on land owned by the Van Niekerk family, 
+    whose deep connection to this corner of Namaqualand stretches back generations. 
+    It was their steadfast support of the vision behind De Riet that made the campsite a reality."
+  </blockquote>
+</div> 
+</div>
 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16 mt-16">
   <div className="space-y-6">
     <Card className="border-2 border-green-200 overflow-hidden">
