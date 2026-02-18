@@ -162,15 +162,9 @@ return (
             <Button size="lg" variant="outline" className="border-green-600 text-green-700 hover:bg-green-50">
               WhatsApp Inquiry
             </Button>
-          </a>
-        </div>
-      </CardContent>
-    </Card>
-  </div>
-
-</div>
-</>
-);
-}
+   </div>
+    </div>
+  );
+};
 
 export default Rates;
