@@ -69,102 +69,29 @@ return (
             </Card>
           </div>
   </div>
-<div className="max-w-4xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mb-16 mt-16 px-4">
-  <div className="flex justify-center lg:justify-end">
-    <Card className="border-2 border-stone-200 overflow-hidden shadow-md w-64 h-80">
-      <img 
-        src="/images/about-giel-mariaan.jpg" 
-        alt="Giel and Mariaan Botha"
-        className="w-full h-full object-cover"
-      />
-    </Card>
-  </div>
-  <div className="max-w-md lg:ml-0">
-  <div className="space-y-6">
-    <div>
-      <h2 className="text-3xl font-bold text-stone-800 mb-4">Giel & Mariaan Botha</h2>
-      <p className="text-lg text-stone-700 leading-relaxed mb-4">
-        Giel and Mariaan Botha serve as trusted backup hosts at De Riet Off-Grid Campsite, stepping in when Pieter and Allische are unavailable to ensure guests always receive a warm and attentive welcome.
-      </p>
-      <p className="text-lg text-stone-700 leading-relaxed">
-        The couple played an instrumental role in the design and building of the campsite, helping bring the vision of an authentic off-grid experience to life.
-      </p>
-    </div>
-  </div>
-</div>
-        {/* Philosophy Section */}
-        <div className="mb-16">
-          <Card className="border-2 border-green-300 shadow-xl">
-            <CardContent className="p-8">
-              <h2 className="text-2xl font-bold text-stone-800 mb-6 text-center">
-                Our Philosophy
-              </h2>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div className="text-center">
-                  <div className="w-16 h-16 rounded-full bg-gradient-to-br from-green-100 to-green-200 flex items-center justify-center mx-auto mb-4">
-                    <svg className="w-8 h-8 text-green-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                  </div>
-                  <h3 className="font-bold text-stone-800 mb-2">Eco-Friendly</h3>
-                  <p className="text-sm text-stone-600">
-                    We prioritise sustainable, low-impact camping that respects the fragile Namaqualand ecosystem
-                  </p>
-                </div>
-
-                <div className="text-center">
-                  <div className="w-16 h-16 rounded-full bg-gradient-to-br from-orange-100 to-orange-200 flex items-center justify-center mx-auto mb-4">
-                    <svg className="w-8 h-8 text-orange-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                    </svg>
-                  </div>
-                  <h3 className="font-bold text-stone-800 mb-2">Personal Service</h3>
-                  <p className="text-sm text-stone-600">
-                    Visiting the site regularly, we're always available for tips, braai chats, or assistance
-                  </p>
-                </div>
-
-                <div className="text-center">
-                  <div className="w-16 h-16 rounded-full bg-gradient-to-br from-amber-100 to-amber-200 flex items-center justify-center mx-auto mb-4">
-                    <svg className="w-8 h-8 text-amber-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                    </svg>
-                  </div>
-                  <h3 className="font-bold text-stone-800 mb-2">Passion for Nature</h3>
-                  <p className="text-sm text-stone-600">
-                    We love this land and are excited to share its magic with you
-                  </p>
-                </div>
-              </div>
-            </CardContent>
+<div className="max-w-4xl mx-auto px-4 mb-20 mt-16">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+        {/* Photo Column - Pulled to the right to meet the text */}
+        <div className="flex justify-center lg:justify-end">
+          <Card className="border-2 border-stone-200 overflow-hidden shadow-md w-64 h-80 shrink-0">
+            <img 
+              src="/images/about-giel-mariaan.jpg" 
+              alt="Giel and Mariaan Botha"
+              className="w-full h-full object-cover"
+            />
           </Card>
         </div>
-{/* Additional Info */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <Card className="border-2 border-stone-200 hover:border-green-600 transition-all duration-300">
-          <CardContent className="p-6">
-            <h3 className="text-xl font-bold text-stone-800 mb-4">Pieter & Allische Horn</h3>
-            <p className="text-stone-600 leading-relaxed">Your hosts at De Riet</p>
-          </CardContent>
-        </Card>
 
-        <Card className="border-2 border-stone-200 hover:border-green-600 transition-all duration-300">
-          <CardContent className="p-6">
-            <h3 className="text-xl font-bold text-stone-800 mb-4">Local Expertise</h3>
-            <p className="text-stone-600 leading-relaxed">
-              Our time exploring Namaqualand has given us deep insights into the best times to visit, hidden gems to discover, and how to make the most of your off-grid experience.
-            </p>
-          </CardContent>
-        </Card>
-
-        <Card className="border-2 border-stone-200 hover:border-green-600 transition-all duration-300">
-          <CardContent className="p-6">
-            <h3 className="text-xl font-bold text-stone-800 mb-4">The Van Niekerk Family</h3>
-            <p className="text-stone-600 leading-relaxed">
-              De Riet Off-Grid Campsite exists on land owned by the Van Niekerk family, whose deep connection to this corner of Namaqualand stretches back generations.
-            </p>
-          </CardContent>
-        </Card>
+        {/* Write-up Column - Centered and aligned */}
+        <div className="max-w-md">
+          <h2 className="text-3xl font-bold text-stone-800 mb-4">Giel & Mariaan Botha</h2>
+          <p className="text-lg text-stone-700 leading-relaxed mb-4">
+            Giel and Mariaan Botha serve as trusted backup hosts at De Riet Off-Grid Campsite, stepping in when Pieter and Allische are unavailable to ensure guests always receive a warm and attentive welcome.
+          </p>
+          <p className="text-lg text-stone-700 leading-relaxed">
+            The couple played an instrumental role in the design and building of the campsite, helping bring the vision of an authentic off-grid experience to life.
+          </p>
+        </div>
       </div>
     </div>
   );
