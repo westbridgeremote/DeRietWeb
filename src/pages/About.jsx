@@ -70,29 +70,23 @@ return (
           </div>
   </div>
 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16 mt-16">
-  <div className="space-y-6">
-    <Card className="border-2 border-green-200 overflow-hidden">
+  <div className="flex justify-center">
+    <Card className="border-2 border-stone-200 overflow-hidden shadow-md max-w-sm">
       <img 
         src="/images/about-giel-mariaan.jpg" 
-        alt="Giel and Mariaan Botha" 
-        className="w-64 h-80 object-cover mx-auto rounded-lg"
+        alt="Giel and Mariaan Botha"
+        className="w-full aspect-[4/5] object-cover"
       />
     </Card>
   </div>
-  <div>
+  <div className="space-y-6">
     <div>
-      <h2 className="text-3xl font-bold text-stone-800 mb-4">
-        Giel & Mariaan Botha
-      </h2>
+      <h2 className="text-3xl font-bold text-stone-800 mb-4">Giel & Mariaan Botha</h2>
       <p className="text-lg text-stone-700 leading-relaxed mb-4">
-        Giel and Mariaan Botha serve as trusted backup hosts at De Riet 
-        Off-Grid Campsite, stepping in when Pieter and Allische are unavailable 
-        to ensure guests always receive a warm and attentive welcome.
+        Giel and Mariaan Botha serve as trusted backup hosts at De Riet Off-Grid Campsite, stepping in when Pieter and Allische are unavailable to ensure guests always receive a warm and attentive welcome.
       </p>
       <p className="text-lg text-stone-700 leading-relaxed">
-        The couple played an instrumental role in the design and building of 
-        the campsite, helping bring the vision of an authentic off-grid 
-        experience to life.
+        The couple played an instrumental role in the design and building of the campsite, helping bring the vision of an authentic off-grid experience to life.
       </p>
     </div>
   </div>
