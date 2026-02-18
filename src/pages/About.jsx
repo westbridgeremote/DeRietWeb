@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, CardContent } from '../components/ui/card';
-import { Camera } from 'lucide-react';
+import { Camera, Leaf, Sun, Wind } from 'lucide-react';
 
 const About = () => {
   return (
@@ -42,24 +42,62 @@ const About = () => {
           </div>
         </div>
 
-        {/* Giel & Mariaan Section - Fixed and Centered */}
+        {/* The Campsite & Vision Sections */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-20">
+          <div>
+            <h2 className="text-2xl font-bold text-stone-800 mb-4">The Campsite</h2>
+            <p className="text-stone-600 leading-relaxed">
+              Located in the heart of the Northern Cape, De Riet offers a unique escape from the hustle and bustle of modern life. Our off-grid approach ensures a minimal footprint on this delicate ecosystem while providing guests with an authentic wilderness experience.
+            </p>
+          </div>
+          <div>
+            <h2 className="text-2xl font-bold text-stone-800 mb-4">Our Vision</h2>
+            <p className="text-stone-600 leading-relaxed">
+              We strive to create a space where people can reconnect with nature and themselves. By maintaining a simple yet comfortable environment, we allow the natural beauty of Namaqualand to take centre stage.
+            </p>
+          </div>
+        </div>
+
+        {/* Eco Commitment */}
+        <div className="bg-stone-100 rounded-2xl p-8 mb-20">
+          <h2 className="text-2xl font-bold text-stone-800 mb-8 text-center">Our Eco-Friendly Commitment</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="text-center">
+              <div className="bg-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 shadow-sm">
+                <Sun className="text-orange-500" />
+              </div>
+              <h3 className="font-bold mb-2">Solar Power</h3>
+              <p className="text-sm text-stone-600">Utilising Namaqualand's abundant sunshine for clean energy.</p>
+            </div>
+            <div className="text-center">
+              <div className="bg-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 shadow-sm">
+                <Leaf className="text-green-600" />
+              </div>
+              <h3 className="font-bold mb-2">Water Wise</h3>
+              <p className="text-sm text-stone-600">Careful management of our precious water resources.</p>
+            </div>
+            <div className="text-center">
+              <div className="bg-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 shadow-sm">
+                <Wind className="text-blue-500" />
+              </div>
+              <h3 className="font-bold mb-2">Low Impact</h3>
+              <p className="text-sm text-stone-600">Preserving the natural state of the land for future generations.</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Giel & Mariaan Section - Centered Alignment */}
         <div className="max-w-4xl mx-auto mb-20 border-t border-stone-200 pt-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            {/* Photo Column - Pushed toward center */}
             <div className="flex justify-center lg:justify-end">
               <Card className="border-2 border-stone-200 overflow-hidden shadow-md w-64 h-80 shrink-0">
                 <img src="/images/about-giel-mariaan.jpg" alt="Giel and Mariaan Botha" className="w-full h-full object-cover" />
               </Card>
             </div>
-            {/* Write-up Column - Centered text on mobile, left on desktop */}
             <div className="max-w-md text-center lg:text-left">
               <h2 className="text-3xl font-bold text-stone-800 mb-4">Giel & Mariaan Botha</h2>
-              <p className="text-lg text-stone-700 leading-relaxed mb-4">
-                Giel and Mariaan Botha serve as trusted backup hosts, ensuring guests always receive a warm welcome when Pieter and Allische are away.
-              </p>
-              <p className="text-lg text-stone-700 leading-relaxed">
-                They played an instrumental role in designing and building the campsite, bringing the vision of an authentic off-grid experience to life.
-              </p>
+              <p className="text-lg text-stone-700 leading-relaxed mb-4">Giel and Mariaan Botha serve as trusted backup hosts, ensuring guests always receive a warm welcome when Pieter and Allische are away.</p>
+              <p className="text-lg text-stone-700 leading-relaxed">They played an instrumental role in designing and building the campsite, bringing the vision of an authentic off-grid experience to life.</p>
             </div>
           </div>
         </div>
