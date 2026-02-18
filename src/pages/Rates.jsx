@@ -164,19 +164,20 @@ return (
         <p className="text-stone-700 mb-6 max-w-2xl mx-auto">
           Contact us for availability, custom packages, or to inquire about group discounts and flower-season rates. Pieter & Allische are here to help!
         </p>
-        <div className="flex flex-wrap justify-center gap-4">
-          <Link to="/contact">
-            <Button className="bg-gradient-to-r from-green-700 to-orange-700 hover:from-green-800 hover:to-orange-800 text-white shadow-lg hover:shadow-xl transition-all duration-300">
-              Contact Us to Book
-            </Button>
-          </Link>
-          <a href="https://wa.me/27733415894" target="_blank" rel="noopener noreferrer">
-            <Button size="lg" variant="outline" className="border-green-600 text-green-700 hover:bg-green-50">
-              WhatsApp Inquiry
-            </Button>
-   </div>
+<div className="flex flex-wrap justify-center gap-4">
+        <Link to="/contact">
+          <Button className="bg-gradient-to-r from-green-700 to-orange-700 hover:from-green-800 hover:to-orange-800 text-white shadow-lg hover:shadow-xl transition-all duration-300">
+            Contact Us to Book
+          </Button>
+        </Link>
+        <a href="https://wa.me/27733415894" target="_blank" rel="noopener noreferrer">
+          <Button size="lg" variant="outline" className="border-green-600 text-green-700 hover:bg-green-50">
+            WhatsApp Inquiry
+          </Button>
+        </a>
+      </div>
     </div>
   );
 };
 
-export default Rates;
+export default Rates;       
