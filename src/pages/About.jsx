@@ -55,7 +55,7 @@ const About = () => {
         {/* Giel & Mariaan Section - Centered and Balanced */}
         <div className="max-w-4xl mx-auto mb-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-            {/* Photo Column - Pushed toward center */}
+            {/* Photo Column - Aligned to meet text */}
             <div className="flex justify-center lg:justify-end">
               <Card className="border-2 border-stone-200 overflow-hidden shadow-md w-64 h-80 shrink-0">
                 <img 
@@ -66,8 +66,8 @@ const About = () => {
               </Card>
             </div>
 
-            {/* Write-up Column - Centered */}
-            <div className="max-w-md">
+            {/* Write-up Column */}
+            <div className="max-w-md text-left">
               <h2 className="text-3xl font-bold text-stone-800 mb-4">Giel & Mariaan Botha</h2>
               <p className="text-lg text-stone-700 leading-relaxed mb-4">
                 Giel and Mariaan Botha serve as trusted backup hosts, ensuring guests always receive a warm welcome when Pieter and Allische are away.
