@@ -175,7 +175,6 @@ return (
         </p>
       </CardContent>
     </Card>
-
     <Card className="border-2 border-stone-200 hover:border-green-600 transition-all duration-300">
       <CardContent className="p-6">
         <h3 className="text-xl font-bold text-stone-800 mb-4">The Van Niekerk Family</h3>
@@ -186,7 +185,7 @@ return (
         </p>
       </CardContent>
     </Card>
-   {/* Quote */}
+        {/* Quote */}
         <div className="text-center mb-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
           <Card className="border-2 border-orange-300 bg-gradient-to-r from-orange-50 via-amber-50 to-green-50 shadow-xl">
             <CardContent className="p-8">
