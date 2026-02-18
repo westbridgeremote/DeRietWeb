@@ -6,6 +6,7 @@ const About = () => {
   return (
     <div className="min-h-screen bg-stone-50 py-12 lg:py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
         {/* Header Section */}
         <div className="text-center mb-16">
           <h1 className="text-4xl lg:text-5xl font-bold text-stone-800 mb-4">About Us</h1>
@@ -25,7 +26,7 @@ const About = () => {
         <div className="max-w-4xl mx-auto mb-20">
           <h2 className="text-2xl font-bold text-stone-800 mb-6">Our Story</h2>
           <p className="text-stone-600 leading-relaxed mb-8">
-            De Riet Off-Grid Campsite is proudly run by Pieter and Allische Horn, a dedicated couple with a deep appreciation for the area's wild and beautiful landscapes. With their experience of exploring Namaqualand's remote trails, beaches, and flower fields, they've created this off-grid haven to share the region's untouched beauty with fellow nature lovers.
+            De Riet Off-Grid Campsite is proudly run by Pieter and Allische Horn, a dedicated couple with a deep appreciation for the area's wild and beautiful landscapes.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -33,7 +34,7 @@ const About = () => {
               <CardContent className="p-6">
                 <h3 className="font-bold text-stone-800 mb-2">Pieter Horn</h3>
                 <p className="text-stone-600 text-sm">
-                  Pieter handles the practical side: designing sustainable, low-impact facilities that harmonise with the environment while ensuring smooth off-grid operations.
+                  Pieter handles the practical side: designing sustainable, low-impact facilities that harmonise with the environment.
                 </p>
               </CardContent>
             </Card>
@@ -45,7 +46,7 @@ const About = () => {
                   <h3 className="font-bold text-stone-800">Allische Horn</h3>
                 </div>
                 <p className="text-stone-600 text-sm">
-                  Allische adds the artistic touch as a photographer with a remarkable eye for nature's minute beauty and details. Her images inspire visitors to appreciate this semi-desert paradise.
+                  Allische adds the artistic touch as a photographer with a remarkable eye for nature's minute beauty and details.
                 </p>
               </CardContent>
             </Card>
@@ -55,7 +56,6 @@ const About = () => {
         {/* Giel & Mariaan Section - Centered and Balanced */}
         <div className="max-w-4xl mx-auto mb-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-            {/* Photo Column - Aligned to meet text */}
             <div className="flex justify-center lg:justify-end">
               <Card className="border-2 border-stone-200 overflow-hidden shadow-md w-64 h-80 shrink-0">
                 <img 
@@ -65,19 +65,18 @@ const About = () => {
                 />
               </Card>
             </div>
-
-            {/* Write-up Column */}
-            <div className="max-w-md text-left">
+            <div className="max-w-md">
               <h2 className="text-3xl font-bold text-stone-800 mb-4">Giel & Mariaan Botha</h2>
               <p className="text-lg text-stone-700 leading-relaxed mb-4">
-                Giel and Mariaan Botha serve as trusted backup hosts, ensuring guests always receive a warm welcome when Pieter and Allische are away.
+                Giel and Mariaan Botha serve as trusted backup hosts, ensuring guests always receive a warm welcome.
               </p>
               <p className="text-lg text-stone-700 leading-relaxed">
-                They played an instrumental role in designing and building the campsite, helping bring the vision of an authentic off-grid experience to life.
+                They played an instrumental role in designing and building the campsite, bringing the vision of an authentic off-grid experience to life.
               </p>
             </div>
           </div>
         </div>
+
       </div>
     </div>
   );
