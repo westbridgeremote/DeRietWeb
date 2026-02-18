@@ -85,7 +85,7 @@ const Home = () => {
             </div>
             <div className="mt-8 flex items-center text-sm text-stone-300">
               <MapPin className="w-4 h-4 mr-2" />
-              <span>GPS: 30.146068, 17.347459</span>
+              <span>GPS: -30.112663, 17.330531</span>
             </div>
           </div>
         </div>
