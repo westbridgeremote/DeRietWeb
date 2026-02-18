@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, CardContent } from '../components/ui/card';
-import { Camera, Leaf, Sun, Wind } from 'lucide-react';
+import { Camera, Leaf, Sun, Wind, History } from 'lucide-react';
 
 const About = () => {
   return (
@@ -42,18 +42,32 @@ const About = () => {
           </div>
         </div>
 
+        {/* The Van Niekerk Family Heritage (Restored) */}
+        <div className="max-w-4xl mx-auto mb-20 bg-stone-100 p-8 rounded-2xl border-l-4 border-stone-300">
+          <div className="flex items-center gap-3 mb-4">
+            <History className="text-stone-500" />
+            <h2 className="text-2xl font-bold text-stone-800">The Van Niekerk Family</h2>
+          </div>
+          <p className="text-stone-600 leading-relaxed mb-4">
+            The heritage of De Riet is deeply rooted in the Van Niekerk family, who have been stewards of this land for generations. Their legacy of hospitality and respect for the Namaqualand wilderness laid the foundation for what the campsite is today.
+          </p>
+          <p className="text-stone-600 leading-relaxed">
+            It is through their vision and enduring connection to the soil that we are able to share this special corner of the world with you.
+          </p>
+        </div>
+
         {/* The Campsite & Vision Sections */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-20">
           <div>
             <h2 className="text-2xl font-bold text-stone-800 mb-4">The Campsite</h2>
             <p className="text-stone-600 leading-relaxed">
-              Located in the heart of the Northern Cape, De Riet offers a unique escape from the hustle and bustle of modern life. Our off-grid approach ensures a minimal footprint on this delicate ecosystem while providing guests with an authentic wilderness experience.
+              Located in the heart of the Northern Cape, De Riet offers a unique escape from the hustle and bustle of modern life. Our off-grid approach ensures a minimal footprint on this delicate ecosystem.
             </p>
           </div>
           <div>
             <h2 className="text-2xl font-bold text-stone-800 mb-4">Our Vision</h2>
             <p className="text-stone-600 leading-relaxed">
-              We strive to create a space where people can reconnect with nature and themselves. By maintaining a simple yet comfortable environment, we allow the natural beauty of Namaqualand to take centre stage.
+              We strive to create a space where people can reconnect with nature. By maintaining a simple yet comfortable environment, we allow the natural beauty of Namaqualand to take centre stage.
             </p>
           </div>
         </div>
