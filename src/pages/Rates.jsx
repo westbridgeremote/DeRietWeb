@@ -62,9 +62,18 @@ const Rates = () => {
     badge: "Extended Stay",
     color: "from-blue-100 to-cyan-100"
   }
-];
-const additionalInfo = [
+ const additionalInfo = [
     {
+      title: "Check-in & Out",
+      icon: <Calendar className="w-6 h-6" />,
+      items: ["Check-in: From 14:00", "Check-out: By 10:00", "Early arrival on request"]
+    },
+    {
+      title: "Campsite Rules",
+      icon: <Info className="w-6 h-6" />,
+      items: ["No loud music", "Pet friendly (prior notice)", "Leave no trace policy"]
+    }
+  ];
       title: "Check-in & Out",
       icon: <Calendar className="w-6 h-6" />,
       items: ["Check-in: From 14:00", "Check-out: By 10:00", "Early arrival on request"]
@@ -137,7 +146,7 @@ return (
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-3 mb-4">
                     <div className="flex-shrink-0 w-12 h-12 rounded-full bg-gradient-to-br from-green-100 to-orange-100 flex items-center justify-center text-green-700">
-                      {info.icon}
+                      {info.icon && info.icon}
                     </div>
                     <h3 className="text-xl font-bold text-stone-800 mt-2">{info.title}</h3>
                   </div>
