@@ -55,7 +55,7 @@ const Rates = () => {
       time: "Arrive after 2pm, depart by 10am",
       features: [
         "Fully equipped caravan",
-        "Bedding provided",
+        "No Bedding provided",
         "Access to all campsite facilities",
         "Private outdoor seating area"
       ],
