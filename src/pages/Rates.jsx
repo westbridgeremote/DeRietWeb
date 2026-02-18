@@ -180,4 +180,4 @@ return (
   );
 };
 
-export default Rates;       
+export default Rates;
