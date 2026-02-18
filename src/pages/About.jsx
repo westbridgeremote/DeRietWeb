@@ -69,16 +69,17 @@ return (
             </Card>
           </div>
   </div>
-<div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16 mt-16">
-  <div className="flex justify-center">
-    <Card className="border-2 border-stone-200 overflow-hidden shadow-md max-w-sm">
+<div className="max-w-4xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mb-16 mt-16 px-4">
+  <div className="flex justify-center lg:justify-end">
+    <Card className="border-2 border-stone-200 overflow-hidden shadow-md w-64 h-80">
       <img 
         src="/images/about-giel-mariaan.jpg" 
         alt="Giel and Mariaan Botha"
-        className="w-full aspect-[4/5] object-cover"
+        className="w-full h-full object-cover"
       />
     </Card>
   </div>
+  <div className="max-w-md lg:ml-0">
   <div className="space-y-6">
     <div>
       <h2 className="text-3xl font-bold text-stone-800 mb-4">Giel & Mariaan Botha</h2>
