@@ -68,10 +68,12 @@ return (
               </CardContent>
             </Card>
           </div>
-  </div>
-<div className="max-w-4xl mx-auto px-4 mb-20 mt-16">
+ </div>
+  
+    {/* Giel & Mariaan Section - Centered Layout */}
+    <div className="max-w-4xl mx-auto px-4 mb-20 mt-16">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-        {/* Photo Column - Pulled to the right to meet the text */}
+        {/* Photo Column */}
         <div className="flex justify-center lg:justify-end">
           <Card className="border-2 border-stone-200 overflow-hidden shadow-md w-64 h-80 shrink-0">
             <img 
@@ -81,8 +83,7 @@ return (
             />
           </Card>
         </div>
-
-        {/* Write-up Column - Centered and aligned */}
+        {/* Write-up Column */}
         <div className="max-w-md">
           <h2 className="text-3xl font-bold text-stone-800 mb-4">Giel & Mariaan Botha</h2>
           <p className="text-lg text-stone-700 leading-relaxed mb-4">
