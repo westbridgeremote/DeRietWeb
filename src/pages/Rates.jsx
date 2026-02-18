@@ -74,16 +74,6 @@ const Rates = () => {
       items: ["No loud music", "Pet friendly (prior notice)", "Leave no trace policy"]
     }
   ];
-      title: "Check-in & Out",
-      icon: <Calendar className="w-6 h-6" />,
-      items: ["Check-in: From 14:00", "Check-out: By 10:00", "Early arrival on request"]
-    },
-    {
-      title: "Campsite Rules",
-      icon: <Info className="w-6 h-6" />,
-      items: ["No loud music", "Pet friendly (prior notice)", "Leave no trace policy"]
-    }
-  ];
 {/* Rates data */} 
 return (
   <>
