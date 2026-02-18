@@ -198,8 +198,8 @@ return (
           </Card>
         </div>
 
-      </div>     {/* This closes the min-h-screen bg-stone-50 div opened around line 8 */}
-    </>
+      </div>
+</>
   );
 };
 
