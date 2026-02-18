@@ -1,44 +1,54 @@
 import React from 'react';
-import { Play, Youtube } from 'lucide-react';
+import { Youtube } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card';
 import { Button } from '../components/ui/button';
 
 const Videos = () => {
   const videoCategories = [
     {
-      title: "Campsite Tour",
-      description: "Virtual tour of De Riet facilities and camping areas",
-      url: "https://www.youtube.com/@allischebotha1967"
+      title: "Namakwaland Flowers 2023",
+      description: "Experience the stunning beauty of the 2023 flower season in Namaqualand.",
+      videoId: "T6bU2L5UV9k"
     },
     {
-      title: "2023 Flower Season - Session 1",
-      description: "Beautiful Flowers from the 2023 Flower Season in Namaqualand",
-      url: "https://www.youtube.com/@allischebotha1967"
+      title: "Namakwaland Blomme 2023",
+      description: "A closer look at the vibrant blooms that covered the landscape in 2023.",
+      videoId: "QXX_uo7kw1k"
     },
     {
-      title: "2023 Flower Season - Session 2",
-      description: "Time-lapse and close-ups of the famous wildflower season in 2023",
-      url: "https://www.youtube.com/@allischebotha1967"
+      title: "Namakwaland Blommeprag 2023",
+      description: "Witness the magnificent floral display of the Northern Cape.",
+      videoId: "_wq5KgUE-5g"
     },
     {
-      title: "2023 Flower Season - Session 3",
-      description: "Stunning views of flower scenery",
-      url: "https://www.youtube.com/@allischebotha1967"
+      title: "Flowers of Namaqualand 2024",
+      description: "Highlights from the breathtaking 2024 flower season.",
+      videoId: "QouxgQiGlvI"
     },
     {
-      title: "2024 Flower Season - Session 1",
-      description: "2024 Flower Season in Namaqualand",
-      url: "https://www.youtube.com/@allischebotha1967"
+      title: "Namaqua Flowers in Bloom 2024",
+      description: "Vibrant colours and endless fields of flowers captured in 2024.",
+      videoId: "oafJ07gZlQQ"
     },
     {
-      title: "2024 Flower Season - Session 2",
-      description: "Namaqualand in bloom in 2024",
-      url: "https://www.youtube.com/@allischebotha1967"
+      title: "Namaqualand Flower Season 2024",
+      description: "A virtual tour through the heart of the 2024 floral phenomenon.",
+      videoId: "lAFL8UwbNl4"
     },
     {
-      title: "2024 Flower Season - Session 3",
-      description: "Flowers in Bloom",
-      url: "https://www.youtube.com/@allischebotha1967"
+      title: "Namakwaland Blomme 2025",
+      description: "Early glimpses into the 2025 flower season beauties.",
+      videoId: "jVJUgu1etZQ"
+    },
+    {
+      title: "2025 Flowers of Namaqualand",
+      description: "Exploring the diverse floral species of Namaqualand in 2025.",
+      videoId: "_NImuVqMS1g"
+    },
+    {
+      title: "Namaqualand Flowers July & August 2025",
+      description: "The spectacular mid-season blooms of 2025.",
+      videoId: "yMaxUB6iuco"
     }
   ];
 
@@ -54,22 +64,31 @@ const Videos = () => {
           </p>
         </div>
 
-        {/* Video Grid Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
           {videoCategories.map((video, index) => (
-            <Card key={index} className="border-none shadow-xl hover:scale-[1.02] transition-transform duration-300 bg-white">
-              <div className="aspect-video bg-stone-200 flex items-center justify-center group relative overflow-hidden">
-                <Play className="w-12 h-12 text-stone-400 group-hover:text-red-600 transition-colors" />
-                <div className="absolute inset-0 bg-black/5 group-hover:bg-black/0 transition-colors" />
+            <Card key={index} className="border-none shadow-xl hover:scale-[1.01] transition-transform duration-300 bg-white overflow-hidden">
+              <div className="aspect-video bg-stone-200">
+                <iframe
+                  className="w-full h-full"
+                  src={`https://www.youtube.com/embed/${video.videoId}`}
+                  title={video.title}
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
               </div>
               <CardHeader>
-                <CardTitle className="text-xl font-bold text-stone-800">{video.title}</CardTitle>
+                <CardTitle className="text-lg font-bold text-stone-800">{video.title}</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-stone-600 text-sm mb-6 min-h-[40px]">
                   {video.description}
                 </p>
-                <a href={video.url} target="_blank" rel="noopener noreferrer">
+                <a 
+                  href={`https://www.youtube.com/watch?v=${video.videoId}`} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
                   <Button className="w-full bg-red-600 hover:bg-red-700 text-white flex items-center justify-center gap-2">
                     <Youtube className="w-4 h-4" />
                     Watch on YouTube
@@ -80,7 +99,6 @@ const Videos = () => {
           ))}
         </div>
 
-        {/* CTA Section */}
         <Card className="border-2 border-orange-300 bg-gradient-to-r from-orange-50 via-amber-50 to-green-50 shadow-xl mt-16">
           <CardContent className="p-8 text-center">
             <h3 className="text-2xl font-bold text-stone-800 mb-4">
