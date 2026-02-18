@@ -4,76 +4,35 @@ import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card'
 import { Badge } from '../components/ui/badge';
 import { Link } from 'react-router-dom';
 import { Button } from '../components/ui/button';
-const Rates = () => {
- const rates = [
+const additionalInfo = [
   {
-    title: "Day Visit",
-    price: "Off-Season R60 | In-Season R100",
-    duration: "per person (Children under 12 Half Price)",
-    time: "8am – 6pm",
-    features: [
-      "Access for picnics & walks",
-      "Wildlife spotting",
-      "Explore Namaqualand scenery",
-      "No overnight stay"
-    ],
-    badge: "Day Trip",
-    color: "from-amber-100 to-orange-100"
+    title: "Check-in & Out",
+    icon: <Calendar className="w-6 h-6" />,
+    items: ["Check-in: From 14:00", "Check-out: By 10:00", "Early arrival on request"]
   },
   {
-    title: "Overnight Stay",
-    price: "Off-Season R150 | In-Season R200",
-    duration: "per person sharing / night (Children under 12 Half Price)",
-    time: "Arrive after 2pm, depart by 10am",
-    features: [
-      "One night camping",
-      "Full facility access",
-      "Kitchen & braai room",
-      "Bathroom & shower"
-    ],
-    badge: "Popular",
-    color: "from-green-100 to-emerald-100"
-  },
-  {
-    title: "On-Site Caravan Rental",
-    price: "Off-Season R250 | In-Season R400",
-    duration: "per person sharing / night",
-    time: "Arrive after 2pm, depart by 10am",
-    features: [
-      "Fully equipped caravan",
-      "Bedding provided",
-      "Access to all campsite facilities",
-      "Private outdoor seating area"
-    ],
-    badge: "Comfort",
-    color: "from-orange-100 to-amber-100"
-  },
-  {
-    title: "Long Term Stay",
-    price: "Off-Season R1,800 | In-Season R2,500",
-    duration: "per person sharing / month (Children under 12 Half Price)",
-    time: "Arrive after 2pm, depart by 10am",
-    features: [
-      "Immerse in nature",
-      "Digital detox retreat",
-      "Flower season stays",
-      "Great for remote work"
-    ],
-    badge: "Extended Stay",
-    color: "from-blue-100 to-cyan-100"
+    title: "Campsite Rules",
+    icon: <Info className="w-6 h-6" />,
+    items: ["No loud music", "Pet friendly (prior notice)", "Leave no trace policy"]
   }
- const additionalInfo = [
+];
+
+const Rates = () => {
+  const rates = [
     {
-      title: "Check-in & Out",
-      icon: <Calendar className="w-6 h-6" />,
-      items: ["Check-in: From 14:00", "Check-out: By 10:00", "Early arrival on request"]
+      title: "Day Visit",
+      price: "Off-Season R60 | In-Season R100",
+      duration: "per person (Children under 12 Half Price)",
+      time: "8am - 6pm",
+      features: [
+        "Access for picnics & walks",
+        "Wildlife spotting",
+        "Explore Namaqualand scenery",
+        "No overnight stay"
+      ],
+      badge: "Day Trip",
+      color: "from-amber-100 to-orange-100"
     },
-    {
-      title: "Campsite Rules",
-      icon: <Info className="w-6 h-6" />,
-      items: ["No loud music", "Pet friendly (prior notice)", "Leave no trace policy"]
-    }
-  ];
 {/* Rates data */} 
 return (
   <>
