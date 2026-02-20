@@ -23,7 +23,7 @@ const Contact = () => {
     // Contact via WhatsApp or phone instead
     toast({
       title: "Use WhatsApp or Phone",
-      description: "Please contact us directly via WhatsApp or call +27 73 341 5894",
+      description: "Please contact us directly via WhatsApp or call +27 73 341 5894 or +27 83 862 0560",
       duration: 5000,
     });
   };
