@@ -46,8 +46,8 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
-      content: "offgridderiet@gmail.com",
-      link: "mailto:offgridderiet@gmail.com",
+      content: "derietoffgrid@gmail.com",
+      link: "derietoffgrid@gmail.com",
       description: "We reply within 24 hours"
     },
     {
