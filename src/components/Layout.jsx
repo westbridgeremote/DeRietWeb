@@ -108,13 +108,18 @@ const Layout = ({ children }) => {
             <div>
               <h3 className="text-xl font-bold text-orange-300 mb-4">Contact</h3>
               <div className="space-y-3 text-sm">
-                <a href="tel:+27733415894" className="flex items-center space-x-2 hover:text-orange-300 transition-colors">
-                  <Phone size={16} />
-                  <span>+27 73 341 5894</span>
-                </a>
-               <a href="tel:+27838620560" className="flex items-center space-x-2 hover:text-orange-300 transition-colors">
-  <Phone size={16} />
-  <span>+27 83 862 0560</span>
+              <a href="tel:+27733415894" className="flex items-center space-x-2 hover:text-orange-300 transition-colors">
+            <Phone size={16} />
+            <span>+27 73 341 5894</span>
+          </a>
+          <a href="tel:+27838620560" className="flex items-center space-x-2 hover:text-orange-300 transition-colors">
+            <Phone size={16} />
+            <span>+27 83 862 0560</span>
+          </a>
+          <a href="tel:+27689534469" className="flex items-center space-x-2 hover:text-orange-300 transition-colors">
+            <Phone size={16} />
+            <span>+27 68 953 4469</span>
+          </a>
 </a> <a href="mailto:derietoffgrid@gmail.com" className="flex items-center space-x-2 hover:text-orange-300 transition-colors">
                   <Mail size={16} />
                   <span>derietoffgrid@gmail.com</span>
