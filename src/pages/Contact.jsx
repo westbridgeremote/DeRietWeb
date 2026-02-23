@@ -228,12 +228,18 @@ const Contact = () => {
                       WhatsApp Us Now
                     </Button>
                   </a>
-                  <a href="tel:+27733415894">
-                    <Button variant="outline" className="w-full border-2 border-stone-300 hover:border-green-600 hover:bg-green-50 justify-start">
-                      <Phone className="w-5 h-5 mr-2" />
-                      Call +27 73 341 5894
-                    </Button>
-                  </a>
+                <a href="tel:+27733415894" className="block w-full">
+            <Button variant="outline" className="w-full border-2 border-stone-300 hover:border-green-600 hover:bg-green-50 justify-start">
+              <Phone className="w-5 h-5 mr-2" />
+              Call +27 73 341 5894
+            </Button>
+          </a>
+          <a href="tel:+27838620560" className="block w-full">
+            <Button variant="outline" className="w-full border-2 border-stone-300 hover:border-green-600 hover:bg-green-50 justify-start">
+              <Phone className="w-5 h-5 mr-2" />
+              Call +27 83 862 0560
+            </Button>
+          </a>
                 </div>
               </CardContent>
             </Card>
