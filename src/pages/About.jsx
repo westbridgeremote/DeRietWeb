@@ -114,6 +114,7 @@ const About = () => {
               <p className="text-lg text-stone-700 leading-relaxed">They played an instrumental role in designing and building the campsite, bringing the vision of an authentic off-grid experience to life.</p>
          </div>
     </div>
+  </div>      
   );
 };
 
