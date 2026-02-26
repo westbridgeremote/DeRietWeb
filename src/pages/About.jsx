@@ -112,9 +112,11 @@ const About = () => {
               <h2 className="text-3xl font-bold text-stone-800 mb-4">Giel & Mariaan Botha</h2>
               <p className="text-lg text-stone-700 leading-relaxed mb-4">Giel and Mariaan Botha serve as trusted backup hosts, ensuring guests always receive a warm welcome when Pieter and Allische are away.</p>
               <p className="text-lg text-stone-700 leading-relaxed">They played an instrumental role in designing and building the campsite, bringing the vision of an authentic off-grid experience to life.</p>
-         </div>
+        </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>      
   );
 };
 
