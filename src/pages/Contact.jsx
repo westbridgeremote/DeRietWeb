@@ -16,19 +16,29 @@ const Contact = () => {
     message: '',
     dates: ''
   });
-
-  const handleSubmit = (e) => {
+const handleSubmit = async (e) => {
     e.preventDefault();
-    
-    // Contact via WhatsApp or phone instead
-    toast({
-      title: "Use WhatsApp or Phone",
-      description: "Please contact us directly via WhatsApp or call +27 73 341 5894 or +27 83 862 0560",
-      duration: 5000,
+    const response = await fetch("https://formspree.io/f/mvzblbzv", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(formData),
     });
+    if (response.ok) {
+      toast({
+        title: "Message Sent!",
+        description: "Thank you, we will reply within 24 hours.",
+        duration: 5000,
+      });
+      setFormData({ name: '', email: '', phone: '', message: '', dates: '' });
+    } else {
+      toast({
+        title: "Something went wrong",
+        description: "Please try WhatsApp or call +27 73 341 5894",
+        duration: 5000,
+      });
+    }
   };
-
-  const handleChange = (e) => {
+   const handleChange = (e) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value
