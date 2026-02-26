@@ -6,6 +6,7 @@ const Layout = ({ children }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
   const location = useLocation();
 
+  
   const navItems = [
     { path: '/', label: 'Home' },
     { path: '/about', label: 'About Us' },
