@@ -105,7 +105,7 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="flex justify-center lg:justify-end">
               <Card className="border-2 border-stone-200 overflow-hidden shadow-md w-64 h-80 shrink-0">
-                <img src="/images/about-giel-mariaan.jpg" alt="Giel and Mariaan Botha" className="w-full h-full object-cover" />
+               <img src="/images/about_giel_mariaan.png" alt="Giel and Mariaan Botha" className="w-full h-full object-cover" />
               </Card>
             </div>
             <div className="max-w-md text-center lg:text-left">
