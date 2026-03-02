@@ -20,14 +20,14 @@ const MapDirections = () => {
     },
     {
       title: "From Springbok",
-      distance: "~100km",
+      distance: "~165km",
       time: "~1.5-2 hours",
       steps: [
         "Head west on R355 from Springbok",
         "Continue towards Koingnaas",
-        "Approximately 80-100km (mostly gravel)",
+        "Approximately 165km (mostly gravel)",
         "Pass through Koingnaas",
-        "De Riet is 10km east of Koingnaas"
+        "De Riet is 15km east of Koingnaas"
       ],
       icon: <Navigation className="w-6 h-6" />
     },
@@ -39,7 +39,7 @@ const MapDirections = () => {
         "From Port Nolloth or Kleinzee",
         "Head south along the coast",
         "Navigate to Koingnaas",
-        "Continue 10km to De Riet",
+        "Continue 15km to De Riet",
         "Scenic coastal route with ocean views"
       ],
       icon: <MapPin className="w-6 h-6" />
@@ -74,7 +74,7 @@ const MapDirections = () => {
         "Gravel roads most of the way",
         "Limited cell phone signal",
         "Call ahead for road updates",
-        "+27 73 341 5894 for assistance"
+        "+27 73 341 5894 or +27 68 953 4469 for assistance"
       ]
     },
     {
@@ -113,16 +113,16 @@ const MapDirections = () => {
                 <div>
                   <h2 className="text-2xl font-bold text-stone-800 mb-2">GPS Coordinates</h2>
                   <p className="text-3xl font-mono font-bold text-green-700 mb-2">
-                    30.112S, 17.330E
+                    -30.145S, 17.347E
                   </p>
                   <p className="text-stone-600">
-                    10km from Koingnaas, Namaqualand, Northern Cape, South Africa
+                    15km from Koingnaas, Namaqualand, Northern Cape, South Africa
                   </p>
                 </div>
               </div>
               <div className="flex flex-col gap-3">
                 <a
-                  href="https://www.google.com/maps/search/?api=1&query=-30.155278,17.355556"
+                  href="https://www.google.com/maps/search/?api=1&query=-30.1455,17.3475,56"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
