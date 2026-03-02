@@ -81,10 +81,10 @@ const About = () => {
             <h2 className="text-2xl font-bold text-stone-800">The Van Niekerk Family</h2>
           </div>
           <p className="text-stone-600 leading-relaxed mb-4">
-            The heritage of De Riet is deeply rooted in the Van Niekerk family, who have been stewards of this land for generations. Their legacy of hospitality and respect for the Namaqualand wilderness laid the foundation for what the campsite is today.
+            The heritage of De Riet is deeply rooted in the Van Niekerk family, who have been stewards of this land for generations. Their legacy laid the foundation for this authentic Namaqualand campsite.
           </p>
           <p className="text-stone-600 leading-relaxed">
-            It is through their vision and enduring connection to the soil that we are able to share this special corner of the world with you.
+            Our appreciation goes to the Van Niekerk family for allowing us to share the unique beauty of their farm.
           </p>
         </div>
 
