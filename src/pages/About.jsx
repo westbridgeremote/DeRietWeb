@@ -11,7 +11,7 @@ const About = () => {
           <h1 className="text-4xl lg:text-5xl font-bold text-stone-800 mb-4">About Us</h1>
           <p className="text-xl text-stone-600">Meet Your Hosts in Namaqualand: Pieter & Allische Horn</p>
           <div className="mt-8 flex justify-center">
-            <Card className="border-2 border-stone-200 overflow-hidden shadow-lg w-64 h-80">
+            <Card className="border-2 border-stone-200 overflow-hidden shadow-lg w-64 h-96">
               <img src="/images/about-pieter-allische.jpg" alt="Pieter and Allische Horn" className="w-full h-full object-cover" />
             </Card>
           </div>
