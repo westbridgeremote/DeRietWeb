@@ -12,7 +12,7 @@ const About = () => {
           <p className="text-xl text-stone-600">Meet Your Hosts in Namaqualand: Pieter & Allische Horn</p>
           <div className="mt-8 flex justify-center">
             <Card className="border-2 border-stone-200 overflow-hidden shadow-lg w-64 h-80">
-              <img src="/images/about-hosts.jpg" alt="Pieter and Allische Horn" className="w-full h-full object-cover" />
+              <img src="/images/about-pieter-allische.jpg" alt="Pieter and Allische Horn" className="w-full h-full object-cover" />
             </Card>
           </div>
         </div>
@@ -42,20 +42,6 @@ const About = () => {
           </div>
         </div>
 
-        {/* The Van Niekerk Family Heritage (Restored) */}
-        <div className="max-w-4xl mx-auto mb-20 bg-stone-100 p-8 rounded-2xl border-l-4 border-stone-300">
-          <div className="flex items-center gap-3 mb-4">
-            <History className="text-stone-500" />
-            <h2 className="text-2xl font-bold text-stone-800">The Van Niekerk Family</h2>
-          </div>
-          <p className="text-stone-600 leading-relaxed mb-4">
-            The heritage of De Riet is deeply rooted in the Van Niekerk family, who have been stewards of this land for generations. Their legacy of hospitality and respect for the Namaqualand wilderness laid the foundation for what the campsite is today.
-          </p>
-          <p className="text-stone-600 leading-relaxed">
-            It is through their vision and enduring connection to the soil that we are able to share this special corner of the world with you.
-          </p>
-        </div>
-
         {/* The Campsite & Vision Sections */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-20">
           <div>
@@ -70,6 +56,36 @@ const About = () => {
               We strive to create a space where people can reconnect with nature. By maintaining a simple yet comfortable environment, we allow the natural beauty of Namaqualand to take centre stage.
             </p>
           </div>
+        </div>
+
+        {/* Giel & Mariaan Section */}
+        <div className="max-w-4xl mx-auto mb-20 border-t border-stone-200 pt-16">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="flex justify-center lg:justify-end">
+              <Card className="border-2 border-stone-200 overflow-hidden shadow-md w-64 h-80 shrink-0">
+                <img src="/images/about_giel_mariaan.png" alt="Giel and Mariaan Botha" className="w-full h-full object-cover" />
+              </Card>
+            </div>
+            <div className="max-w-md text-center lg:text-left">
+              <h2 className="text-3xl font-bold text-stone-800 mb-4">Giel & Mariaan Botha</h2>
+              <p className="text-lg text-stone-700 leading-relaxed mb-4">Giel and Mariaan Botha serve as trusted backup hosts, ensuring guests always receive a warm welcome when Pieter and Allische are away.</p>
+              <p className="text-lg text-stone-700 leading-relaxed">They played an instrumental role in designing and building the campsite, bringing the vision of an authentic off-grid experience to life.</p>
+            </div>
+          </div>
+        </div>
+
+        {/* The Van Niekerk Family Heritage */}
+        <div className="max-w-4xl mx-auto mb-20 bg-stone-100 p-8 rounded-2xl border-l-4 border-stone-300">
+          <div className="flex items-center gap-3 mb-4">
+            <History className="text-stone-500" />
+            <h2 className="text-2xl font-bold text-stone-800">The Van Niekerk Family</h2>
+          </div>
+          <p className="text-stone-600 leading-relaxed mb-4">
+            The heritage of De Riet is deeply rooted in the Van Niekerk family, who have been stewards of this land for generations. Their legacy of hospitality and respect for the Namaqualand wilderness laid the foundation for what the campsite is today.
+          </p>
+          <p className="text-stone-600 leading-relaxed">
+            It is through their vision and enduring connection to the soil that we are able to share this special corner of the world with you.
+          </p>
         </div>
 
         {/* Eco Commitment */}
@@ -100,21 +116,6 @@ const About = () => {
           </div>
         </div>
 
-        {/* Giel & Mariaan Section - Centered Alignment */}
-        <div className="max-w-4xl mx-auto mb-20 border-t border-stone-200 pt-16">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="flex justify-center lg:justify-end">
-              <Card className="border-2 border-stone-200 overflow-hidden shadow-md w-64 h-80 shrink-0">
-               <img src="/images/about_giel_mariaan.png" alt="Giel and Mariaan Botha" className="w-full h-full object-cover" />
-              </Card>
-            </div>
-            <div className="max-w-md text-center lg:text-left">
-              <h2 className="text-3xl font-bold text-stone-800 mb-4">Giel & Mariaan Botha</h2>
-              <p className="text-lg text-stone-700 leading-relaxed mb-4">Giel and Mariaan Botha serve as trusted backup hosts, ensuring guests always receive a warm welcome when Pieter and Allische are away.</p>
-              <p className="text-lg text-stone-700 leading-relaxed">They played an instrumental role in designing and building the campsite, bringing the vision of an authentic off-grid experience to life.</p>
-        </div>
-          </div>
-        </div>
       </div>
     </div>
   );
