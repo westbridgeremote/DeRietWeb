@@ -161,21 +161,6 @@ const Gallery = () => {
           ))}
         </Tabs>
 
-        {/* Instructions */}
-        <Card className="mt-12 border-2 border-green-300 bg-gradient-to-r from-green-50 to-stone-50">
-          <CardContent className="p-6">
-            <h3 className="text-lg font-bold text-stone-800 mb-3">How to Add Your Photos</h3>
-            <p className="text-sm text-stone-700 mb-3">
-              Replace the placeholders above with your actual images. Each placeholder shows the recommended 
-              alt text for SEO optimization (focusing on keywords like "off-grid camping Namaqualand", 
-              "wildflower season", etc.).
-            </p>
-            <p className="text-sm text-stone-700">
-              <span className="font-semibold">Recommended:</span> Use high-quality images (1200px+ width) 
-              in JPEG or WebP format. Compress images before upload for optimal website performance.
-            </p>
-          </CardContent>
-        </Card>
       </div>
     </div>
   );
