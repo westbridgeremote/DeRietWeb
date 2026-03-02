@@ -5,6 +5,7 @@ import { ImageIcon } from 'lucide-react';
 
 const Gallery = () => {
   const categories = [
+  const categories = [
     {
       id: 'campsite',
       label: 'Campsite',
@@ -43,9 +44,37 @@ const Gallery = () => {
     {
       id: 'landscapes',
       label: 'Landscapes',
-      description: 'Sunsets, stars, coastal views, mountains, and semi-desert plains',
-      altPrefix: 'Namaqualand landscape sunset stars west coast',
+      description: 'Sunsets, stars, mountains, and semi-desert plains',
+      altPrefix: 'Namaqualand landscape sunset stars northern cape',
       count: 8
+    },
+    {
+      id: 'coastal',
+      label: 'Coastal Excursions',
+      description: 'Rugged West Coast shoreline and pristine beaches near De Riet',
+      altPrefix: 'Namaqualand coastal excursions West Coast South Africa',
+      count: 6
+    },
+    {
+      id: 'dunes',
+      label: 'Dunes',
+      description: 'Shifting white sands and coastal dune ecosystems',
+      altPrefix: 'Namaqualand sand dunes coastal wilderness',
+      count: 4
+    },
+    {
+      id: 'rock-formations',
+      label: 'Rock Formations',
+      description: 'Ancient granite boulders and unique geological features',
+      altPrefix: 'Namaqualand rock formations geology Northern Cape',
+      count: 6
+    },
+    {
+      id: 'shipwrecks',
+      label: 'Shipwrecks',
+      description: 'Historic maritime remains along the Diamond Coast',
+      altPrefix: 'Diamond Coast shipwrecks Namaqualand history',
+      count: 4
     }
   ];
 
@@ -58,7 +87,11 @@ const Gallery = () => {
     flowers: [],
     birds: [],
     reptiles: [],
-    landscapes: []
+    landscapes: [],
+    coastal: [],
+    dunes: [],
+    'rock-formations': [],
+    shipwrecks: []
   };
 
   const PhotoPlaceholder = ({ category, index }) => {
