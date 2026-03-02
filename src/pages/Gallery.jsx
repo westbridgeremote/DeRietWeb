@@ -5,7 +5,6 @@ import { ImageIcon } from 'lucide-react';
 
 const Gallery = () => {
   const categories = [
-  const categories = [
     {
       id: 'campsite',
       label: 'Campsite',
@@ -78,7 +77,6 @@ const Gallery = () => {
     }
   ];
 
-  // Available photos organized by category
   const categoryPhotos = {
     antelope: [
       { src: '/images/gallery/antelope/gemsbok-1.png', alt: 'Gemsbok antelope running with wildflowers Namaqualand off-grid camping' }
@@ -148,30 +146,14 @@ const Gallery = () => {
           </p>
         </div>
 
-        {/* Photo Upload Notice */}
-        <Card className="mb-8 border-2 border-orange-300 bg-gradient-to-r from-orange-50 to-amber-50">
-          <CardContent className="p-6">
-            <div className="flex items-start space-x-3">
-              <ImageIcon className="w-6 h-6 text-orange-600 flex-shrink-0 mt-1" />
-              <div>
-                <h3 className="font-bold text-stone-800 mb-2">Photo Upload Area</h3>
-                <p className="text-sm text-stone-700">
-                  Placeholders below indicate where your beautiful Namaqualand photos will be displayed. 
-                  Each section is organized for easy photo management – campsite, wildlife, flowers, birds, reptiles, and landscapes.
-                </p>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
-
         {/* Gallery Tabs */}
         <Tabs defaultValue="campsite" className="w-full">
-          <TabsList className="grid grid-cols-3 lg:grid-cols-6 gap-2 mb-8 h-auto bg-transparent">
+          <TabsList className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-2 mb-8 h-auto bg-transparent">
             {categories.map((category) => (
               <TabsTrigger
                 key={category.id}
                 value={category.id}
-                className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-green-700 data-[state=active]:to-orange-700 data-[state=active]:text-white border-2 border-stone-300 data-[state=active]:border-transparent py-3 px-4 text-sm font-medium transition-all duration-300 hover:border-green-600"
+                className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-green-700 data-[state=active]:to-orange-700 data-[state=active]:text-white border-2 border-stone-300 data-[state=active]:border-transparent py-3 px-4 text-xs sm:text-sm font-medium transition-all duration-300 hover:border-green-600"
               >
                 {category.label}
               </TabsTrigger>
@@ -193,7 +175,6 @@ const Gallery = () => {
             </TabsContent>
           ))}
         </Tabs>
-
       </div>
     </div>
   );
