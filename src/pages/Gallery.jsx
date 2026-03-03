@@ -75,6 +75,13 @@ const Gallery = () => {
       altPrefix: 'Diamond Coast shipwrecks Namaqualand history',
       count: 4
     }
+     {
+      id: 'beaches',
+      label: 'Beaches',
+      description: 'Unique beaches along the Diamond Coast',
+      altPrefix: 'Diamond Coast beaches',
+      count: 4
+    }
   ];
 
   const categoryPhotos = {
@@ -90,6 +97,7 @@ const Gallery = () => {
     dunes: [],
     'rock-formations': [],
     shipwrecks: []
+     beachess: []
   };
 
   const PhotoPlaceholder = ({ category, index }) => {
